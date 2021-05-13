@@ -19,7 +19,6 @@ def printBlock(x,y,row):
     print(int(x-2)*' '+ row)
 
 def nextFrame(x,y,up,side,wall,row):
-    amount = random.randint(1, 3)
     if x < 204 and side:
         x+= 1
     elif x > 0 and not(side):
